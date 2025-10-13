@@ -1,36 +1,24 @@
-﻿using Tyuiu.NazarovSV.Sprint2.Task0.V19.Lib;
-namespace Tyuiu.NazarovSV.Spprint2.Task0.V19
+﻿using Tyuiu.NazarovSV.Sprint2.Task4.V11.Lib;
+namespace Tyuiu.NazarovSV.Sprint2.Task4.V11
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            int x = 105;
-            int y = 177;
-            bool[] res = new bool[6];
-            res = ds.GetCompareOperations(x, y);
-
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
-
-            Console.WriteLine("X = " + x);
-            Console.WriteLine("Y = " + y);
-
+            Console.WriteLine("Введите значение переменной X: ");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите значение переменной Y: ");
+            double y = Convert.ToDouble(Console.ReadLine());
+            double res = ds.Calculate(x, y);
             Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ                                                              *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
-
-            for (int i = 0; i < 6; i++)
-            {
-                Console.WriteLine(res[i]);
-            }
+            Console.WriteLine("Значение функции ранов: " + res);
             Console.ReadKey();
-            int z = 5;
-
-            int a = z > 0 ? 2 * z : 3 - z;
-            Console.WriteLine(a);
         }
     }
 }
