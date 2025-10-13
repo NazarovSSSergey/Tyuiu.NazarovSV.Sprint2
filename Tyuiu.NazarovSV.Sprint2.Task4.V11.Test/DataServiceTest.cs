@@ -8,9 +8,9 @@ namespace Tyuiu.NazarovSV.Sprint2.Task4.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 3.11;
-            double y = 3.11;
-            double next = 1732.731;
+            double x = 9;
+            double y = 4;
+            double next = 92.205;
             double res = ds.Calculate(x, y);
             Assert.AreEqual(next, res);
         }
