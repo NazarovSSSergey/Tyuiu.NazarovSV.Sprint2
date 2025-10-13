@@ -21,7 +21,7 @@ namespace Tyuiu.NazarovSV.Sprint2.Task2.V8
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
-            if (res)
+            if (res == false)
             {
                 Console.WriteLine("Точка находится в заштрихованной области");
             }
