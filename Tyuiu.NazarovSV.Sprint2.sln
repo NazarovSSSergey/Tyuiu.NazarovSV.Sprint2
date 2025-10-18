@@ -71,8 +71,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.NazarovSV.Sprint2.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.NazarovSV.Sprint2.Task7.V12.Test", "Tyuiu.NazarovSV.Sprint2.Task7.V12.Test\Tyuiu.NazarovSV.Sprint2.Task7.V12.Test.csproj", "{2C2102FA-60BF-467A-8744-751D8986B3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{D352AA9C-F803-4977-8345-AFFC181D4EB7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,10 +173,6 @@ Global
 		{2C2102FA-60BF-467A-8744-751D8986B3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C2102FA-60BF-467A-8744-751D8986B3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C2102FA-60BF-467A-8744-751D8986B3C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D352AA9C-F803-4977-8345-AFFC181D4EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D352AA9C-F803-4977-8345-AFFC181D4EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D352AA9C-F803-4977-8345-AFFC181D4EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D352AA9C-F803-4977-8345-AFFC181D4EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
