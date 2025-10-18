@@ -20,8 +20,8 @@ namespace Tyuiu.NazarovSV.Sprint2.Task7.V12
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            if (res) { Console.WriteLine("Точка не находится в закрашенной облати"); }
-            else { Console.WriteLine("Точка находится в закрашенной области"); }
+            if (res) { Console.WriteLine("Точка находится в закрашенной облати"); }
+            else { Console.WriteLine("Точка не находится в закрашенной области"); }
             Console.ReadKey();
         }
     }
