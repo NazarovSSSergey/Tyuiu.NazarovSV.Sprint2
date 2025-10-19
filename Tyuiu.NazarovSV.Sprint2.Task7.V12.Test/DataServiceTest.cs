@@ -8,10 +8,10 @@ namespace Tyuiu.NazarovSV.Sprint2.Task7.V12.Test
         public void CheckDotInShadedAreaValid()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = 1;
+            double x = -0.2;
+            double y = 0.2;
 
-            bool wait = true;
+            bool wait = false;
             bool res = ds.CheckDotInShadedArea(x, y);
             Assert.AreEqual(wait, res);
         }
